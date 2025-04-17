@@ -1,0 +1,89 @@
+
+<html>
+en">
+<title>Customer Reviews
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+header {
+background: #007BFF;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+.average-rating {
+margin: 20px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.stars {
+display: flex;
+}
+.star {
+color: gold;
+font-size: 24px;
+}
+.rating-score {
+margin-left: 10px;
+font-size: 36px;
+}
+.filter-bar {
+margin: 20px;
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+.filter {
+padding: 10px;
+border: 1px solid #007BFF;
+border-radius: 5px;
+background: white;
+cursor: pointer;
+}
+.reviews {
+max-width: 800px;
+margin: auto;
+background: white;
+padding: 20px;
+border-radius: 5px;
+}
+.review {
+border-bottom: 1px solid #ccc;
+padding: 10px 0;
+}
+.review:last-child {
+border: none;
+}
+.review-date {
+color: #999;
+font-size: 12px;
+}
+.rating-bar {
+margin: 10px 0;
+border-radius: 5px;
+background: #e0e0e0;
+}
+.rating-progress {
+height: 20px;
+background: #007BFF;
+border-radius: 5px;
+}
+</style>
+<header>
+Customer Reviews
+<div class="stars">
+<span class="star">★<span class="star">★<span class="star">★<span class="star">★<span class="star">☆<span class="rating-score">4.5<span>(Total: 150 Reviews)<div class="filter-bar">
+Filter by RatingFilter by Date
+Filter by Category
+Recent Reviews
+John Doe<span class="review-date">March 1, 2023
+<span class="star">★<span class="star">★<span class="star">★<span class="star">★<span class="star">☆
+Great service and friendly staff!
+Jane Smith<span class="review-date">February 20, 2023
+<span class="star">★<span class="star">★<span class="star">★<span class="star">★<span class="star">★
+Excellent experience from start to finish.
+© 2023 Your Company. All rights reserved.
